@@ -9,7 +9,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -34,6 +34,40 @@ public class ModBlocks
                     .requiresCorrectToolForDrops()
             ),
             ModCreativeModeTab.JUST_MIKA);
+    public static final RegistryObject<Block> MIKANIUM_STAIRS = registerBlock("mikanium_stair",
+            () -> new StairBlock(
+                    () -> ModBlocks.MIKANIUM_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+            ),
+            ModCreativeModeTab.JUST_MIKA);
+    public static final RegistryObject<Block> MIKANIUM_SLAB = registerBlock("mikanium_slab",
+            () -> new SlabBlock(
+                    BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+            ),
+            ModCreativeModeTab.JUST_MIKA);
+    public static final RegistryObject<Block> MIKANIUM_FENCE = registerBlock("mikanium_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+            ),
+            ModCreativeModeTab.JUST_MIKA);
+    public static final RegistryObject<Block> MIKANIUM_FENCE_GATE = registerBlock("mikanium_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+            ),
+            ModCreativeModeTab.JUST_MIKA);
+    public static final RegistryObject<Block> MIKANIUM_WALL = registerBlock("mikanium_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+            ),
+            ModCreativeModeTab.JUST_MIKA);
+
 
     public static final RegistryObject<Block> MIKANIUM_ORE = registerBlock("mikanium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
@@ -56,6 +90,8 @@ public class ModBlocks
             ),
             ModCreativeModeTab.JUST_MIKA,
             "tooltip.koishitestmod.block.junko_block");
+
+
 
 
 

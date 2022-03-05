@@ -1,6 +1,7 @@
 package com.kmijkoishi.koishitestmod.item.custom;
 
 import com.kmijkoishi.koishitestmod.block.ModBlocks;
+import com.kmijkoishi.koishitestmod.util.ModTags;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;

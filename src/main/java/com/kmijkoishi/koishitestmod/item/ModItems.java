@@ -32,6 +32,11 @@ public class ModItems
                     .tab(ModCreativeModeTab.JUST_MIKA)
             ));
 
+    public static final RegistryObject<Item> ROLLCAKE = ITEMS.register("rollcake",
+            () -> new Item(new Item.Properties()
+                    .tab(ModCreativeModeTab.JUST_MIKA)
+            ));
+
     public static final RegistryObject<Item> FUUKAFUEL = ITEMS.register("fuuka_fuel",
             () -> new FuukaFuel(new Item.Properties()
                     .tab(ModCreativeModeTab.JUST_MIKA)
