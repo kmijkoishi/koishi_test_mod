@@ -1,5 +1,6 @@
 package com.kmijkoishi.koishitestmod;
 
+import com.kmijkoishi.koishitestmod.block.ModBlocks;
 import com.kmijkoishi.koishitestmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Blocks;
@@ -26,6 +27,7 @@ public class KoishiTestMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 

@@ -1,3 +1,9 @@
 {
-  "item.koishitestmod.mikamuim": "Mikamuim"
+  "item.koishitestmod.mikamium": "Mikamium",
+  "item.koishitestmod.cooked_mikamium": "Cooked mikamuim",
+
+  "block.koishitestmod.mikamium_block": "Mikamium block",
+  "block.koishitestmod.mikamium_ore": "Mikamium ore",
+
+  "itemGroup.justmika": "Just Mika!!"
 }

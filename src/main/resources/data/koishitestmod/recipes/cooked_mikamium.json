@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "koishitestmod:mikamium_block"
+    }
+  ],
+  "result": {
+    "item": "koishitestmod:cooked_mikamium",
+    "count": 9
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "koishitestmod:mikamium"
+  },
+  "result": "koishitestmod:cooked_mikamium",
+  "experience": 0.7,
+  "cookingtime": 200
+}
