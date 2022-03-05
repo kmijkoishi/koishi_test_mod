@@ -1,9 +1,21 @@
 {
-  "item.koishitestmod.mikamium": "Mikamium",
-  "item.koishitestmod.cooked_mikamium": "Cooked mikamuim",
+  "item.koishitestmod.mikanium": "Mikanium",
+  "item.koishitestmod.cooked_mikanium": "Cooked mikanium",
+  "item.koishitestmod.nagisa_dowsing_rod": "Nagisa Dowsing Rod",
+  "item.koishitestmod.tasty_credit": "Tasty Credit",
+  "item.koishitestmod.fuuka_fuel": "Fuuka fuel",
 
-  "block.koishitestmod.mikamium_block": "Mikamium block",
-  "block.koishitestmod.mikamium_ore": "Mikamium ore",
+  "block.koishitestmod.mikanium_block": "Mikanium block",
+  "block.koishitestmod.pure_mikanium_block": "Pure Mikanium block",
+  "block.koishitestmod.mikanium_ore": "Mikanium ore",
+  "block.koishitestmod.junko_block": "Get Junko'd block",
 
-  "itemGroup.justmika": "Just Mika!!"
+  "itemGroup.justmika": "Just Mika!!",
+
+  "item.koishitestmod.nagisa_dowsing_rod.no_valuables": "No Valuales Things For Mika Found!",
+  "tooltip.koishitestmod.nagisa_dowsing_rod.tooltip.shift": "The Nagisa will find you some mikaniums below the blocks you pointed.",
+  "tooltip.koishitestmod.nagisa_dowsing_rod.tooltip": "right-click to surface to find if theres mikaniums below there.\nPress Shift for more details",
+  "tooltip.koishitestmod.block.junko_block": "You just got Junko'd.",
+  "tooltip.koishitestmod.tasty_credit": "Why not you just try to literally \"consume\" the credits?"
+
 }

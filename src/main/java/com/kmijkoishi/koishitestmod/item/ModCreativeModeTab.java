@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab JUST_MIKA = new CreativeModeTab("justmika") {
         @Override
         public ItemStack makeIcon   () {
-            return new ItemStack(ModItems.COOKED_MIKAMIUM.get());
+            return new ItemStack(ModItems.COOKED_MIKANIUM.get());
         }
     };
 }

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "koishitestmod:mikamium_block"
+          "name": "koishitestmod:pure_mikanium_block"
         }
       ],
       "conditions": [

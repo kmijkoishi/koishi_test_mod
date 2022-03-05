@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "koishitestmod:block/mikamium_block"
+    "all": "koishitestmod:block/pure_mikanium_block"
   }
 }

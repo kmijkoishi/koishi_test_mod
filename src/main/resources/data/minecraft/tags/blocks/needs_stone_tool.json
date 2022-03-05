@@ -1,7 +1,8 @@
 {
   "replace": false,
   "values": [
-    "koishitestmod:mikamium_ore",
-    "koishitestmod:mikamium_block"
+    "koishitestmod:mikanium_ore",
+    "koishitestmod:mikanium_block",
+    "koishitestmod:junko_block"
   ]
 }

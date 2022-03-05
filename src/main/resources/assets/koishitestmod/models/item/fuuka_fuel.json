@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "koishitestmod:item/cooked_mikamium"
+    "layer0": "koishitestmod:item/fuuka_fuel"
   }
 }
