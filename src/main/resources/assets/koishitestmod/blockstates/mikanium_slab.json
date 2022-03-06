@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "koishitestmod:block/mikanium_slab"
+    },
+    "type=double": {
+      "model": "koishitestmod:block/mikanium_block"
+    },
+    "type=top": {
+      "model": "koishitestmod:block/mikanium_slab_top"
+    }
+  }
+}

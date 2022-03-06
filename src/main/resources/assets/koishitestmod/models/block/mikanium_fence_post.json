@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "koishitestmod:block/mikanium_block"
+  }
+}

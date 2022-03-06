@@ -34,7 +34,7 @@ public class ModBlocks
                     .requiresCorrectToolForDrops()
             ),
             ModCreativeModeTab.JUST_MIKA);
-    public static final RegistryObject<Block> MIKANIUM_STAIRS = registerBlock("mikanium_stair",
+    public static final RegistryObject<Block> MIKANIUM_STAIRS = registerBlock("mikanium_stairs",
             () -> new StairBlock(
                     () -> ModBlocks.MIKANIUM_BLOCK.get().defaultBlockState(),
                     BlockBehaviour.Properties.of(Material.METAL)

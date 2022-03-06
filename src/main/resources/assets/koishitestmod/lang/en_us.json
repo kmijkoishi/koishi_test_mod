@@ -7,6 +7,13 @@
   "item.koishitestmod.rollcake": "Rollcake",
 
   "block.koishitestmod.mikanium_block": "Mikanium block",
+  "block.koishitestmod.mikanium_stairs": "Mikanium stairs",
+  "block.koishitestmod.mikanium_slab": "Mikanium slab",
+  "block.koishitestmod.mikanium_fence": "Mikanium fence",
+  "block.koishitestmod.mikanium_fence_gate": "Mikanium fence gate",
+  "block.koishitestmod.mikanium_wall": "Mikanium wall",
+
+
   "block.koishitestmod.pure_mikanium_block": "Pure Mikanium block",
   "block.koishitestmod.mikanium_ore": "Mikanium ore",
   "block.koishitestmod.junko_block": "Get Junko'd block",
